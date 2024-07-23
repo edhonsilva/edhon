@@ -1,0 +1,93 @@
+#c1 {
+    background: url(../img/fundo1.png);
+
+}
+
+#c2 {
+    background: url(../img/fundo2.png);
+}
+
+#c3 {
+    background: url(../img/fundo3.png);
+}
+
+#c4 {
+    background: url(../img/arteciabg.png);
+}
+
+#c1,#c2,#c3,#c4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CardP1 {
+    font-size: 2em;
+    padding: 5px;
+    background: white;
+   
+
+    border-radius: 10px;
+    margin-left: 5px;
+    display: none;
+}
+
+.main2 a {
+    color: #444242; 
+    text-decoration: none;
+}
+
+.img {
+    border: solid black 5px;
+    margin-left: 10px;
+    border-radius: 100%
+    
+}
+.main2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 130px 0px;
+}
+
+.Tatuagens {
+    transition: 300ms;
+    width: 150px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+
+
+.Tatuagens:hover {
+    width: 360px;
+    height: 180px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 10px;
+}
+
+.Tatuagens:hover .CardP1 {
+    display: block;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 850px){
+    .main2{
+        flex-direction: column;
+    }
+    .Tatuagens {
+        width: 360px;
+        height: 180px;
+        border: solid rgb(0, 0, 0) 2px;
+        border-radius: 10px;
+    }
+    .Tatuagens .CardP1 {
+        display: block;
+    }
+}
