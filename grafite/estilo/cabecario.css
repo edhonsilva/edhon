@@ -9,12 +9,10 @@ html {
 body{
     min-height: 100dvh;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgba(255, 195, 106, 0.872);
-    background: url(../img/fundo_grande.jpg);
+    background: linear-gradient(34deg, rgb(134, 1, 1), rgb(167, 74, 105), rgb(255, 115, 0));
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
     overflow-x: hidden;
 }
 #logo_principal{
@@ -36,7 +34,7 @@ body{
     margin: 0px;
 }
 #offcanvasDarkNavbar{
-    background-color: rgba(204, 58, 1, 0.849) !important;
+    background-color: rgba(129, 1, 1, 0.932) !important;
     border-left: 2px solid rgba(184, 181, 181, 0.76);
 
 }
@@ -53,18 +51,8 @@ padding: 0rem !important;
     transition: background 300ms ease-in-out;
 }
 .nav-item:hover{
-    background-color: rgb(168, 60, 27);
+    background-color: brown;
 }
-.dropdown-menu{
-    background-color: rgb(207, 101, 15);
-}
-.dropdown-toggle{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 100%;
-}
-/*^BARRA DE NAVEGAÇÃO^*/
-
 @media (width < 1000px){
     body{
         background-position-x: 0%;

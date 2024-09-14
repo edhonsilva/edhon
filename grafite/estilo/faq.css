@@ -6,8 +6,7 @@
     align-items: center;
     gap: 100px;
     color: white;
-
-    background-color: rgb(12, 12, 12);
+    background-color: rgba(173, 53, 16, 0.719);
     box-shadow: 0px 0px 50px rgb(0, 0, 0);
     padding:130px 0px;
     width: 100%;
@@ -86,8 +85,10 @@ details[open] summary::before {
     }
 }
 
-@media(max-width: 560px) {
-
+@media(width < 560px) {
+    #FAQ{
+        padding: 10px 0px !important;
+    }
     .FAQ1,
     .FAQ2 {
         width: 350px;

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edhon Tatoos</title>
+    <title>Edhon Grafites</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo/cabecario.css">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="estilo/section3.css">
     <link rel="stylesheet" href="estilo/sobre_mim.css">
     <link rel="stylesheet" href="estilo/faq.css">
-    <link rel="stylesheet" href="estilo/orçamento.css">
+
     <link rel="stylesheet" href="estilo/contatos.css">
     <link rel="shortcut icon" href="img/tatufavico-removebg-preview.png" type="image/x-icon">
 </head>
@@ -21,23 +21,23 @@
 <body>
 
     <section id="section1">
-        <nav class="navbar navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.548);">
+        <nav class="navbar navbar-dark fixed-top" style="background-color: rgba(82, 2, 2, 0.623);">
             <div id="logo">
-                <img src="img/Tatu01.jpg" id="logo_principal" alt="Edhon Tattos" width="80px">
+                <img src="../principal/img/quadros.jpg" id="logo_principal" alt="Edhon Tattos" width="80px">
             </div>
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    style="background: rgba(20, 15, 15, 0.61);">
+                    style="background: rgba(70, 3, 3, 0.815);">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
                         <div id="logo">
-                            <img src="img/Tatu01.jpg" id="logo_principal" alt="Edhon Tattos" width="70px">
+                            <img src="../principal/img/quadros.jpg" id="logo_principal" alt="Edhon Tattos" width="70px">
                         </div>
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Edhon Silva Tatuagens</h5>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Edhon Silva Grafites</h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -68,7 +68,7 @@
         </nav>
         <section class="section1_filha">
             <div class="texto_section1">
-                <h1>SUA HISTÓRIA, SUA PELE, SUA <br> OBRA PRIMA</h1>
+                <h1>SUA PAREDE, SUA LATA, SEU <br> GRAFITE</h1>
             </div>
             <a href="#section3">
                 <img src="img/seta.png" id="but" width="80px">
@@ -79,38 +79,16 @@
     </section>
     <section id="section3">
         <div class="carrosel_imgs" id="carrosel1">
-            <img src="img/tatuagens/tt (1).jpeg" alt="">
-            <img src="img/tatuagens/tt (9).jpeg" alt="">
-            <img src="img/tatuagens/tt (4).jpeg" alt="">
-            <img src="img/tatuagens/tt (5).jpeg" alt="">
-            <img src="img/tatuagens/tt (7).jpeg" alt="">
-            <img src="img/tatuagens/tt (1).jpeg" alt="">
-            <img src="img/tatuagens/tt (5).jpeg" alt="">
-            <img src="img/tatuagens/tt (3).jpeg" alt="">
-            <img src="img/tatuagens/tt (9).jpeg" alt="">
-            <img src="img/tatuagens/tt (7).jpeg" alt="">
-            <img src="img/tatuagens/tt (8).jpeg" alt="">
-            <img src="img/tatuagens/tt (6).jpeg" alt="">
+
         </div>
         <div class="carrosel_imgs" id="carrosel2">
-            <img src="img/tatuagens/tt (9).jpeg" alt="">
-            <img src="img/tatuagens/tt (1).jpeg" alt="">
-            <img src="img/tatuagens/tt (3).jpeg" alt="">
-            <img src="img/tatuagens/tt (2).jpeg" alt="">
-            <img src="img/tatuagens/tt (6).jpeg" alt="">
-            <img src="img/tatuagens/tt (9).jpeg" alt="">
-            <img src="img/tatuagens/tt (2).jpeg" alt="">
-            <img src="img/tatuagens/tt (7).jpeg" alt="">
-            <img src="img/tatuagens/tt (9).jpeg" alt="">
-            <img src="img/tatuagens/tt (5).jpeg" alt="">
-            <img src="img/tatuagens/tt (8).jpeg" alt="">
-            <img src="img/tatuagens/tt (4).jpeg" alt="">
+
         </div>
     </section>
 
     <section id="sobre_mim">
         <div id="img">
-            <img src="imgs/edhon_tatoo.jpg" alt="Edhon Silva" width="400px">
+            <img src="img/grafites/ftedhongr.jpeg" alt="Edhon Silva" width="400px">
         </div>
         <div id="texto_sobre">
             <h1> Olá, Edhon aqui!</h1>
@@ -138,26 +116,11 @@
 
     </section>
 
-    
-    <section id="orçamento">
-        <h1>FAÇA SEU <br> ORÇAMENTO</h1>
-        <div id="formO">
-            <form action="tatuagens/envia_fale.php" method="post">
-                <input type="text" id="input" name="nome" placeholder="Nome">
-                <input type="email" name="" id="input" name="email" placeholder="Email">
-                <input type="tel" name="" id="input" name="tel" placeholder="Telefone">
-                <textarea name="assunto" id="" rows="6" placeholder="Descrição"></textarea>
-                <input type="file" name="arquivo" id="file">
-                <input type="submit" id="butt" value="Enviar">
-            </form>
-        </div>
-    </section>
-
 
     <section id="contato">
         <h1>CONTATOS</h1>
         <div class="contacts">
-            <a href="https://www.instagram.com/edhonsilvatattoo/" target="_blank">
+            <a href="https://www.instagram.com/edhon_silva/" target="_blank">
                 <div class="contact1">
                     <img src="imgs/insta_logo.png" alt="Instagram" width="50px">
                 </div>
@@ -168,14 +131,17 @@
                     <img src="imgs/email.png" alt="Email" width="50px">
                 </div>
             </a>
-            <a href="https://wa.me/5585991499012?text=Ol%C3%A1%21+Vim+pelo+site%2C+gostaria+de+saber+mais+sobre+seus+servi%C3%A7os+de+tatuagens%21%F0%9F%92%AA%F0%9F%98%8E"
+            <a href="https://wa.me/5585991499012?text=Ol%C3%A1%21+Vim+pelo+site%2C+gostaria+de+saber+mais+sobre+seus+servi%C3%A7os+de+Grafite%21%F0%9F%92%AA%F0%9F%98%8E"
                 target="_blank">
                 <div class="contact3">
                     <img src="imgs/whats.png" alt="Email" width="40px">
                 </div>
             </a>
         </div>
+
     </section>
+
+    
     <section id="FAQ">
         <h1 id="FAQh1">FAQ</h1>
         <div class="FAQ1">
@@ -234,7 +200,6 @@
 
 
     <script src="js/volte_topo.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
