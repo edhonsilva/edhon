@@ -90,6 +90,7 @@
     padding: 10px 0px;
     max-width: 400px;
     height: fit-content;
+    text-align: justify;
 }
 #texto_sobre h1{
     font-size: 3em;
