@@ -33,6 +33,7 @@
     padding: 10px 10px;
     max-width: 400px;
     align-self: center;
+    text-align: justify;
 }
 #texto_sobre h1{
     font-size: 3em;
