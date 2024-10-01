@@ -68,30 +68,14 @@
 
 /*Texto sobre*/
 
-#sobre_mim{
-    margin: 100px 0px;
-    display: flex;
-    gap: 50px;
-    padding: 0px 0px;
-    height: fit-content;
-    max-height: 500px;
-    justify-content: center;
-}
+
 #sobre_mim img{
     clip-path: circle();
-    margin: 50% 10px;
+    margin: 10px;
     max-width: 400px;
-    transform: translate(0%,-50%);
 }
 
-#texto_sobre{
-    color: white;
-    line-height: 1.5em;
-    padding: 10px 0px;
-    max-width: 400px;
-    height: fit-content;
-    text-align: justify;
-}
+
 #texto_sobre h1{
     font-size: 3em;
     margin-bottom: 10px;
@@ -105,14 +89,49 @@
 #texto_sobre #importante{
     font-size: 1.4em;
 }
+#sobre_mim{
+    margin: 100px 0px;
+    display: flex;
+    gap: 50px;
+    padding: 50px 0px;
+    height: fit-content;
+    max-height: 500px;
+    justify-content: flex-end;
+    align-items: center;
+}
+#texto_sobre{
+    color: white;
+    line-height: 1.5em;
+    padding: 10px 0px;
+    margin-right: 5%;
+    max-width: 400px;
+    height: fit-content;
+    text-align: justify;
+}
 
+@media(width > 860px){
+    #sobre_mim{
+        background-image: url(/principal/img/fundosobremim.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: auto 30%;
+box-shadow: 0px 0px 30px rgb(73, 73, 73);
+    }
+    #texto_sobre{
+        background-color: #020227;
+        padding: 25px 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+box-shadow: 10px 10px 30px black;
+    }
+}
 @media(width < 1005px){
     .edhon{
         background-position: center center;
         background-size: cover;
     }
 }
-@media (max-width: 860px){
+@media (width < 860px){
     #img{
         display: none;
     }
