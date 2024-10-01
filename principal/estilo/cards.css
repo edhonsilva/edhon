@@ -9,14 +9,10 @@
     letter-spacing: 3px;
     margin-left: 20px;
     padding: 10px 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 .subtitle-card{
-    color: rgb(163, 162, 162);
-    font-family: grafite;
-    letter-spacing: 3px;
-    margin-left: 25px;
-    margin-bottom: 10px;
+display: none;
 }
 
 #c1,#c2,#c3,#c4 {
@@ -49,8 +45,7 @@
 }
 .main2 {
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:flex-start;
     flex-direction: row;
     overflow-x: scroll;
     width: 100%;
@@ -82,6 +77,19 @@
 
 .main2::-webkit-scrollbar-track{
     background-color: rgba(255, 255, 255, 0);
+}
+@media(width < 1090px){
+.subtitle-card{
+    display: block;
+    color: rgb(163, 162, 162);
+    font-family: grafite;
+    letter-spacing: 3px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.title-card{
+    margin-bottom: 0px;
+}
 }
 @media(width < 1436px){
     .main2{
