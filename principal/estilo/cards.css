@@ -3,6 +3,21 @@
     src: url('../../fontes/KOMIKAX_.ttf') format('opentype');
     font-weight: normal;
 }
+.title-card{
+    color: white;
+    font-family: grafite;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    padding: 10px 0px;
+    padding-bottom: 0px;
+}
+.subtitle-card{
+    color: rgb(163, 162, 162);
+    font-family: grafite;
+    letter-spacing: 3px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
 
 #c1,#c2,#c3,#c4 {
     background: url(../img/fundo_artecia.png);
